@@ -1,0 +1,11 @@
+name: dbconnect
+comment: "A very basic test environment for demonstrative purposes"
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7.5
+  - ipykernel
+  - ipython
+  - pip:
+    - databricks-connect==7.3.*
+    - six
