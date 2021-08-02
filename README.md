@@ -3,7 +3,7 @@
 This container is designed for developing PySpark application in VS Code using Databricks-Connect.
 
 Quick guide
-1. Copy `devcontainer` folder inside your project main folder under `.devcontainer` (notice the dot)
+1. Copy `.devcontainer` folder inside your project main folder
 2. rename file `devcontainer.example.json` to `devcontainer.json` and configure DATABRICKS_* env vars
 3. Open vs code and select `Open folder in container`
 4. Once in, open a new shell and run `databricks-connect test`
