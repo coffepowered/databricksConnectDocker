@@ -24,9 +24,15 @@
 		"DATABRICKS_PORT": "15001", //8787 or 15001
 		"DATABRICKS_TOKEN": ""
 	},
+	// TODO: Perhaps not the best way to ensure git credential sharing.
+	"postCreateCommand": "sudo chmod 775 /home/vscode/.ssh/id_rsa",
+	"mounts": [
+		"source=${localEnv:USERPROFILE}/.ssh,target=/home/vscode/.ssh,type=bind"
+	],
 	"extensions": [
 		"ms-python.python",
 		"ms-python.vscode-pylance",
+		"ms-toolsai.jupyter",
 		"eamodio.gitlens"
 	]
 }  
