@@ -9,3 +9,5 @@ dependencies:
   - pip:
     - databricks-connect==7.3.*
     - six
+    - pep8
+    - pylint
