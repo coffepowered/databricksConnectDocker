@@ -21,8 +21,7 @@
 		"DATABRICKS_API_TOKEN": "xxxxxxxxxxxxxxxx",
 		"DATABRICKS_CLUSTER_ID": "xxxx-xxxxxx-aaaaa11",
 		"DATABRICKS_ORG_ID": "xxxxxxxxxxxxxxxx", // find it after the url adb-xxx...
-		"DATABRICKS_PORT": "15001", //8787 or 15001
-		"DATABRICKS_TOKEN": ""
+		"DATABRICKS_PORT": "15001" //8787 or 15001
 	},
 	// TODO: Perhaps not the best way to ensure git credential sharing.
 	"postCreateCommand": "sudo chmod 775 /home/vscode/.ssh/id_rsa",
