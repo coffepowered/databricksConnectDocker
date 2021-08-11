@@ -16,6 +16,10 @@ Quick guide
 * If using Docker:
   * `WSL 1` on Windows 10 is the only *tested* way of running this
 
+## Which container ?
+
+The recipes of all the base containers can be found in this branch at ./devcontainer/recipes separated by databricks runtime version. Such recipes have been you to build the public docker images at https://hub.docker.com/repository/docker/simarocchi/vscode_dbconnect
+
 ## Test it out
 
 First from command prompt check that you databricks connect install can connect:
