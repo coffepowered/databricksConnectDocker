@@ -4,7 +4,7 @@
 	"name": "databricks-connect runtime 8.1",
 
 	// The optional 'runArgs' property can be used to specify additional runtime arguments. E.g.
-	//"runArgs": ["-u", "vscode"], 	// ,"--gpus","all"
+	"runArgs": ["-u", "vscode"], 	// ,"--gpus","all"
 	"runArgs": ["--init"],
 	"remoteUser": "vscode",
 	//"settings": {
