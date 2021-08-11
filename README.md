@@ -18,7 +18,7 @@ Quick guide
 
 ## Which container ?
 
-The recipes of all the base containers can be found in this branch at ./devcontainer/recipes separated by databricks runtime version. Such recipes have been you to build the public docker images at https://hub.docker.com/repository/docker/simarocchi/vscode_dbconnect
+The recipes of all the base containers can be found in this branch at ./devcontainer/recipes separated by databricks runtime version. Such recipes have been used to build the public docker images at https://hub.docker.com/repository/docker/simarocchi/vscode_dbconnect
 
 ## Test it out
 
