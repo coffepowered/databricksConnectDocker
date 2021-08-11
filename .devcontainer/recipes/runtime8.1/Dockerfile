@@ -14,7 +14,7 @@ ARG USER_GID=$USER_UID
 # Configure apt
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Mini Conda Start
+# Localization
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 
 RUN apt-get update --fix-missing && \
